@@ -2328,6 +2328,46 @@ select.mobile-device {
 	color: #7D9EB5;
 }
 
+/* ITS Robotic Team */
+.its-robotics-team{
+	background: url("uploads/images/gedung.jpg") no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+
+.its-robotics-team::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0, 0.7);
+	top: 0px;
+	left: 0px;
+}
+
+.its-robotics-team .title{
+	padding: 220px 0 140px 0;
+}
+
+.its-robotics-team .title h1{
+	font-size: 60px;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.its-robotics-team .title .breadcrumb, .its-robotics-team .title .breadcrumb a{
+	background: transparent;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+	color: #ffffff;
+}
+
+.its-robotics-team .title .breadcrumb .active{
+	color: #7D9EB5;
+}
+/* end */
+
 .all-page-bar-sponsors{
 	background: url("uploads/images/ism.jpg") no-repeat center;
 	background-size: cover;
